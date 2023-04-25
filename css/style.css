@@ -207,6 +207,7 @@ body {
 .team__inner {
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
   padding-top: 127px;
 }
 
