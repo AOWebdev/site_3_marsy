@@ -126,13 +126,14 @@ body {
   text-transform: uppercase;
 }
 
+/* О нас */
 .about {
   height: 1129px;
   padding-top: 128px;
   padding-bottom: 271px;
-  background: url(../img/buildings__white.png) center bottom repeat-x,
-  url(../img/buildings__black.png) center bottom repeat-x,
-  #1d1d1d;
+  background: url(../img/buildings__white.png) center 101% repeat-x,
+    url(../img/buildings__black.png) center 101% repeat-x,
+    #1d1d1d;
   /* background-size: contain, contain; */
 }
 
@@ -172,4 +173,83 @@ body {
   letter-spacing: 0.02em;
   line-height: 22px;
   color: #b7b7b7;
+}
+
+/* Команда */
+.team {
+  height: 745px;
+}
+
+.block__head {
+  text-align: center;
+}
+
+.block__title {
+  font-family: "HelveticaNeueLTProRoman", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  padding-top: 138px;
+  margin-bottom: 13px;
+}
+
+.block__text {
+  font-family: "Merriweather-LightItalic", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #898888;
+  margin: 0;
+}
+
+.team__inner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 127px;
+}
+
+.team__item {
+  text-align: center;
+}
+
+.team__item-img {
+  margin-bottom: 29px;
+}
+
+.team__item-title {
+  font-family: "HelveticaNeueLTProRoman", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #464646;
+  margin-bottom: 7px;
+}
+
+.team__item-text {
+  font-family: "HelveticaNeueLTProRoman", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #b3b3b3;
+  margin-bottom: 21px;
+}
+
+.team__icon-box a {
+  transition: 0.2s;
+}
+
+.team__icon-box a:first-child {
+  margin-right: 14px;
+}
+
+.team__icon-box a img:hover {
+  background-color: #949494;
+  border-radius: 5px;
+}
+
+.team__icon-box img {
+  width: 20px;
+  height: 20px;
 }
