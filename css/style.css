@@ -51,7 +51,7 @@ body {
   margin: 0 auto;
 }
 
-.menu__inner {
+.menu__mobile {
   display: none;
 }
 
@@ -513,6 +513,9 @@ input[type='number'] {
     display: none;
   }
 
+  .menu__mobile {
+    display: block;
+  }
   .menu__inner {
     display: flex;
     justify-content: space-between;

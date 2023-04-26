@@ -7,7 +7,6 @@ $(document).ready(function() {
     }, 500);
     $('nav a[href^="#"]').parent().removeClass('active');
     $(this).parent().addClass('active');
-    $('.menu').toggle(500);
     $('.menu__burger').toggleClass('close');
     return false;
   });
@@ -15,6 +14,6 @@ $(document).ready(function() {
   // Мобильное меню
   $('.menu__burger').click(function() {
     $('.menu').toggle(500);
-    $(this).toggleClass('close');
+    $('.menu__burger').toggleClass('close');
   })
 });
